@@ -27,7 +27,7 @@
       *OS NUMEROS DE 50 A 99 TEM USO ESPECIFICO. MAS NO MAINFRAME SE    *
       *USA:                                                             *
       *    NIVEL 77-DADO INDEPENDENTE                                   *
-      *    NIVEL 88-NOMES CONDICIONAIS                                  *
+      *    NIVEL 88-NOMES CONDICIONAIS                                  *-REVER ESSA PARTE
       *SOMENTE OS NÍVEIS 01 E 77 PODEM SER CODIFICADOS NA AREA A.       *
       *    EXEMPLOS:                                                    *
 
@@ -40,7 +40,7 @@
       *TER PELO MENOS 1 LETRA.                                          *
       *CASO NAO HAJA REFERENCIA DE UM PROGRAMA O NOME PODE SER OMITIDO, *
       *MAS NO COBOL É OBRIGATORIO. PENSANDO NISSO SE CRIOU A PALAVRA    *
-      *FILLER QUE IDENTIFICA DADOS ANONIMOS.                            *
+      *FILLER QUE IDENTIFICA DADOS ANONIMOS.                            *-REVER ESSA PARTE
 
 
        01  FILLER PIC X(20) VALUE "NAO TEM NADA AQUI".
@@ -119,7 +119,7 @@
       *    O HIGH-VALUES DETERMINA O MAIOR VALOR POSSIVEL ASSUMIDO PELA *
       *VARIAVEL. EM CONTRAPARTE O LOW-VALUES ASSUME O MENOR VALOR POSSI-*
       *VEL ASSUMIDO PELA VARIAVEL. MAS ELES SO PODEM SER UTILIZADOS EM  *
-      *VARIAVEIS ALFANUMERICAS.                                         *
+      *VARIAVEIS ALFANUMERICAS.                                         *-REVER ESSA PARTE
       *                                                                 *
       *                                                                 *
       *                       ESTRUTURA-DATA DIVISION                   *
@@ -129,7 +129,7 @@
       *    FILE SECTION: USADA PARA DEFINIR O LAYOUT DO REGISTRO DO AR- *
       *QUIVO. NESTA SECTION E NECESSARIO DEFINIR A ESTRUTURA DE CADA UM *
       *DOS ARQUIVOS. ISTO E FEITO ATRAVES DO FILE DESCRIPTION(FD).      *
-      *    FILE DESCRIPTION:                                            *
+      *    FILE DESCRIPTION:                                            *-REVER ESSA PARTE
       *    -NOME DO ARQUIVO                                             *
       *    -BLOCK CONTAINS (QUANTIDADE DE BLOCOS): ESPECIFICA O TAMANHO *
       *DO REGISTRO FISICO.                                              *
@@ -150,7 +150,7 @@
       *TOES E PERFURADORAS POIS ELAS NAO POSSUEM LABELS, NOS DEMAIS CA- *
       *SOS SE USA O "STANDARD".                                         *
       *    -DATA RECORD (NOME DO REGISTRO): SERVE APENAS COMO DOCUMENTA-*
-      *CAO, IDENTIFICANDO REGISTROS DO ARQUIVO PELO NOME.               *
+      *CAO, IDENTIFICANDO REGISTROS DO ARQUIVO PELO NOME.               *-REVER ESSA PARTE
       *    CLAUSULA FILLER: USADA PARA UM ITEM QUE NAO SERA REFERENCIADO*
       *PODE SER USADO NA "DATA DIVISION" E SUAS "SECTIONS", EXEMPLO:    *
 
