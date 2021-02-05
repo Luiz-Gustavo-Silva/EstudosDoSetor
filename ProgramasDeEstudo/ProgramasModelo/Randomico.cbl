@@ -1,0 +1,40 @@
+      ******************************************************************
+      * Author:
+      * Date:
+      * Purpose:
+      * Tectonics: cobc
+      ******************************************************************
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       DATA DIVISION.
+       FILE SECTION.
+       WORKING-STORAGE SECTION.
+       01  RESULTADO PIC 9(1) VALUE 0.
+       PROCEDURE DIVISION.
+           COMPUTE RESULTADO = FUNCTION RANDOM (1000)
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY FUNCTION RANDOM
+           DISPLAY RESULTADO.
+       END PROGRAM YOUR-PROGRAM-NAME.
