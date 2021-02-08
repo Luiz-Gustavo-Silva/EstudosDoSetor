@@ -1,8 +1,29 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       PROGRAM-ID. PROCEDURE-DIVISION.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-
        PROCEDURE DIVISION.
-       END PROGRAM YOUR-PROGRAM-NAME.
+
+      *******************************************************************
+      *                                                                 *
+      *                                                                 *
+      *                       PROCEDURE-DIVISION                        *
+      *                                                                 *
+      *                                                                 *
+      *    ESTA E A ULTIMA DIVISAO. E NELA QUE SE CONTROLA A EXECUCAO DO*
+      *PROGRAMA, ONDE SAO COLOCADOS OS COMANDOS ORIUNDOS DO ALGORITMO AS*
+      *INSTRUCOES FEITAS NELA PODEM SER REUNIDAS EM PARAGRAFOS, E ESTES *
+      *EM SECOES. EXEMPLO:                                              *
+      *-----------------------------------------------------------------*
+      *0000                ROTINA-PRINCIPAL SECTION.                    *
+      *-----------------------------------------------------------------*
+      *    PERFORM 1000-ENTRADA. – SEGUNDA SEÇÃO DO PROGRAMA            *
+      *    PERFORM 2000- PROCESSAMENTO. – TERCEIRA SEÇÃO DO PROGRAMA    *
+      *    PERFORM 3000-SAIDA. – QUARTA SEÇÃO DO PROGRAMA               *
+      *-----------------------------------------------------------------*
+      *0000 FIM. EXIT.                                             *
+      *-----------------------------------------------------------------*
+      *******************************************************************
+
+       END PROGRAM PROCEDURE-DIVISION.
