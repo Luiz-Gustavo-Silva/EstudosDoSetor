@@ -3,7 +3,6 @@
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-
       *******************************************************************
       *OS DADOS SAO DEFINIDOS NA DATA-DIVISION. MAS PARA UM DADO SER    *
       *FEITO SAO NECESSARIAS ESPECIFICACOES.                            *

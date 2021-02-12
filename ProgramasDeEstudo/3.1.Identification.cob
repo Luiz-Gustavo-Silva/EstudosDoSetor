@@ -1,17 +1,11 @@
-      ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
-      * Tectonics: cobc
-      ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       PROGRAM-ID. IDENTIFICATION-PROGRAM.
+       AUTHOR. LUIZ-GUSTAVO-SILVA.
+       DATE-WRITTEN. 02-02-2021.
+       REMARKS. NUM (11)983478156 / E-MAIL LUIZ.GSILVA@BANDTEC.COM.BR.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
-            DISPLAY "Hello world"
-            STOP RUN.
-       END PROGRAM YOUR-PROGRAM-NAME.
-
+      *******************************************************************
+       END PROGRAM IDENTIFICATION-PROGRAM.
